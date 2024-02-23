@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+
+            #main{
+                display: flex;
+                background-color: yellow;
+                justify-content: space-around; /*Default: x axis*/
+                /* space-around, space-evenly, space-between, flex-start, flex-end, center*/
+                /*align-items: center;*/
+                /*gap: 50px;*/
+                /*flex-wrap: wrap;*/
+                flex-direction: column;
+            }
+            .child-el1{
+                /*display: inline;*/
+                height: 100px;
+                background-color: aqua;
+            }
+            .child-el2{
+                /*display: inline;*/
+                background-color: blue;
+            }
+            .child-el3{
+                /*display: inline;*/
+                background-color: chartreuse;
+            }
+            .child-el4{
+                /*display: inline;*/
+                background-color: deeppink;
+            }
+            .child-el5{
+                /*display: inline;*/
+                background-color: orange;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="main"><marquee behavior="alternate">
+            <div class="child-el1">My first box</div>
+            <div class="child-el2">My second box</div>
+            <div class="child-el3">My third box</div>
+            <div class="child-el4">My fourth box</div>
+            <div class="child-el5">My fifth box</div>
+        </div>
+    </body>
+
+</html>

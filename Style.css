@@ -1,0 +1,27 @@
+h1{
+    font-size: 90px;
+    font-stretch: expanded;
+}
+
+#title {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+}
+
+
+.dinner{
+    background-color: aqua;
+}
+
+.dessert{
+    background-color: blue;
+}
+
+/* no comment */
+p{
+    border: solid 2px purple;
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
